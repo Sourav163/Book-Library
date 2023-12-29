@@ -1,5 +1,3 @@
 # Book Library
 
-You have to implement a library using Java Class "Library"
-Methods: addBook, issueBook, returnBook, showAvailableBooks
-Properties: - Array to store the available books, - Array to store the issued books
+This is a book library made using Java. Here, World's top 20 books are present. You can - <br>1. add number of books on your own, <br>2. Issue books those you want, <br>3. Return books you have issued, <br>4. See available books in the library.
