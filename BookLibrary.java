@@ -56,7 +56,6 @@ class Library {
         String bookAdd = sc.nextLine();
         Arrays.sort(bookNames);
         bookNames = arrayBookAdd(bookNames, bookAdd);
-        // sc.close();
     }
 
     public void issueBook() {
@@ -65,7 +64,6 @@ class Library {
         int bookIssue = sc.nextInt();
         Arrays.sort(bookNames);
         bookNames = arrayBookIssue(bookNames, bookIssue);
-        // sc.close();
     }
 
     public void returnBook() {
@@ -74,7 +72,6 @@ class Library {
         String bookReturn = sc.nextLine();
         Arrays.sort(bookNames);
         bookNames = arrayBookAdd(bookNames, bookReturn);
-        // sc.close();
     }
 
     public void showAvailableBooks() {
@@ -120,7 +117,6 @@ public class BookLibrary {
                 default:
                     System.out.println("INVALID OPTION");
             }
-            // sc.close();
         }
     }
 }
