@@ -54,6 +54,7 @@ class Library {
         System.out.print("Enter the book name :  ");
         Scanner sc = new Scanner(System.in);
         String bookAdd = sc.nextLine();
+        sc.close();
         Arrays.sort(bookNames);
         bookNames = arrayBookAdd(bookNames, bookAdd);
     }
@@ -62,6 +63,7 @@ class Library {
         System.out.print("Enter the book serial no. :  ");
         Scanner sc = new Scanner(System.in);
         int bookIssue = sc.nextInt();
+        sc.close();
         Arrays.sort(bookNames);
         bookNames = arrayBookIssue(bookNames, bookIssue);
     }
@@ -70,6 +72,7 @@ class Library {
         System.out.print("Enter the book name :  ");
         Scanner sc = new Scanner(System.in);
         String bookReturn = sc.nextLine();
+        sc.close();
         Arrays.sort(bookNames);
         bookNames = arrayBookAdd(bookNames, bookReturn);
     }
@@ -98,6 +101,7 @@ public class BookLibrary {
             System.out.print("\tYou want to (Press No.) :  ");
             Scanner sc = new Scanner(System.in);
             int userInput = sc.nextInt();
+            sc.close();
             switch (userInput) {
                 case 1:
                     lib.addBook();
